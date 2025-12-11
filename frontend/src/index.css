@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.cjs";
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-gray-200 font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-gold;
+  }
+}
+
+.btn-primary {
+  @apply bg-burgundy hover:bg-burgundy-light text-white px-6 py-2 rounded-lg transition-all duration-300 border border-gold shadow-lg hover:shadow-gold/20 active:scale-95;
+}
+
+.input-field {
+  @apply w-full bg-dark-card border border-gray-700 rounded-md p-2 text-white focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-colors;
+}
+
+.card {
+  @apply bg-dark-card border-l-4 border-burgundy p-6 rounded-r-lg shadow-xl;
+}

@@ -1,0 +1,14 @@
+ucimlrepo
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+scipy
+joblib
+fastapi
+uvicorn
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
