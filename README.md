@@ -61,5 +61,4 @@ The App will run at `http://localhost:5173`.
 - **Backend**: FastAPI, Scikit-Learn, Pandas, Joblib.
 - **Design**: "Burgundy & Gold" premium aesthetic.
 
----
-*Created by Antigravity*
+
